@@ -3,6 +3,7 @@ import './App.css';
 import CharacterCard from './CharacterCard';
 export default class WordCard extends
 Component {
+    activationHandler = c => { console.log(`${c} has been activated.`) }
 render() {
  return (
  <div>
